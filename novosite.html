@@ -1,0 +1,163 @@
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2196f3;
+  height: 80px;
+}
+
+.navbar-logo {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu a:hover {
+  color: blue;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100%;
+  background-image: url("home.jpg");
+  background-size: cover;
+}
+
+.banner-title {
+  color: blue;
+  font-size: 48px;
+  text-shadow: -2px -2px 0 white;
+  
+}
+
+.main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+}
+
+.card-image {
+  width: 100%;
+  height: 150px;
+}
+
+card-image (min-width: 768px) {
+  .img {
+    display: block;
+    margin: 0;
+    }
+ 
+.img {
+  max-height: 200px; 
+}
+
+card-image (max-width: 480px) {
+  .img {
+    max-height: 150%;
+  }
+.card-content {
+  padding: 10px;
+}
+
+.card-title {
+  font-size: 24px;
+}
+
+.card-text {
+  font-size: 16px;
+}
+
+</style>
+</head>
+<body>
+<div class="navbar">
+<img src="logo.jpg" alt="error 404" class="navbar-logo">
+<ul class="navbar-menu">
+    
+<li><a href="google.com">Materias</a></li>
+
+<li><a href= "https://maps.app.goo.gl/sTZ4AyPpeVg5bofp6">Endereço</a></li>
+
+<li><a href="sobre.html">Sobre Nós</a></li>
+
+<li><a href="suporte.html">Contato</a></li>
+
+<li><a href="login.html">Login</a></li>
+
+</ul>
+</div>
+
+<div class="banner">
+<h1 class="banner-title">Colegio Estadual Francisco Ramos</h1>
+
+</div>
+<div class="main">
+<div class="card">
+    <a href="google.com">
+<img src="árvore.jpg" alt="error 404" class="card-image">
+</a>
+<div class="card-content">
+<h2 class="card-title">Colégio</h2>
+<p class="card-text"> Colégio.</p>
+</div>
+</div>
+<div class="card">
+    <a href="google.com">
+<img src="refeitório.jpg" alt="error 404" class="card-image">
+</a>
+<div class="card-content">
+<h2 class="card-title">Refeitório</h2>
+<p class="card-text">local construido para que os alunos tenham um local apropriado para se alimentar no intervalo.</p>
+</div>
+</div>
+
+
+<div class="card">
+   <a href="google.com" >
+<img src="quadra.jpg" alt="error 404" class="card-image">
+
+</a>
+<div class="card-content">
+<h2 class="card-title">Quadra</h2>
+<p class="card-text"> a quadra tem o intuito de incentivar os alunos a paraticarem esporte alem de facilitar as aulas de educação física</p>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+
