@@ -1,0 +1,143 @@
+<html>
+<head>
+<style>
+    
+    .navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2196f3;
+  height: 80px;
+}
+
+.navbar-logo {
+  width: 40px;
+  margin-left: 10px;
+}
+
+.navbar-menu {
+  display: flex;
+  list-style: none;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-menu a:hover {
+  color: blue;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+}
+
+.container {
+  width: 400px;
+  margin: 50px auto;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.form {
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2196f3;
+  color: white;
+}
+
+.form-link {
+  display: block;
+  margin-top: 10px;
+}
+
+.form-link a {
+  color: #2196f3;
+}
+</style>
+</head>
+<body>
+    <div class="navbar">
+<img src="logo.jpg" alt="error 404" class="navbar-logo">
+<ul class="navbar-menu">
+    
+<li><a href="google.com">Materias</a></li>
+
+<li><a href="google.com">Endereço</a></li>
+
+<li><a href="sobre.html">Sobre Nós</a></li>
+
+<li><a href="suporte.html">Contato</a></li>
+
+<li><a href="login.html">Login</a></li>
+
+</ul>
+</div>
+<div class="container">
+<div class="header">
+Login
+</div>
+<div class="form">
+<form>
+<div class="form-group">
+<label class="form-label">Email</label>
+<input type="email" class="form-input" placeholder="Digite seu email">
+</div>
+<div class="form-group">
+<label class="form-label">Senha</label>
+<input type="password" class="form-input" placeholder="Digite sua senha">
+</div>
+<button type="submit" class="form-button">Entrar</button>
+<span class="form-link"><a href="suporte.html">Esqueci minha senha</a></span>
+<span class="form-link"><a href="suporte.html">Preciso de suporte</a></span>
+</form>
+</div>
+</div>
+</body>
+</html>
+
